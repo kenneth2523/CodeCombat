@@ -1,0 +1,7 @@
+# Go to the end of the path and build a fence on the X
+# Use your moveXY(x, y) function.
+
+self.moveXY(34, 45)
+self.moveXY(36, 59)
+self.moveXY(37, 13)
+self.buildXY("fence", 72, 25)
