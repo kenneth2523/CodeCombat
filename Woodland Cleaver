@@ -1,0 +1,12 @@
+# Use your new "cleave" skill as often as you can.
+
+self.moveXY(23, 23)
+loop:
+    enemy = self.findNearestEnemy()
+    if self.isReady("cleave"):
+        self.cleave(enemy)# Cleave the enemy!
+        
+        pass
+    else:
+        self.attack(enemy)# Else (if cleave isn't ready), do your normal attack.
+        self.attack(enemy)
