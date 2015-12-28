@@ -1,0 +1,7 @@
+# Remember that enemies may not yet exist.
+loop:
+    enemy = self.findNearestEnemy()
+    # Si hay un enemigo, atacarlo!
+    if enemy:
+        self.attack(enemy)
+        self.attack(enemy)
